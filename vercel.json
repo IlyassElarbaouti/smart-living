@@ -6,6 +6,8 @@
   },
   "buildCommand": "npm run build",
   "env": {
-    "PRISMA_CLI_BINARY_TARGETS": "rhel-openssl-3.0.x,rhel-openssl-1.0.x,native"
-  }
+    "PRISMA_CLI_BINARY_TARGETS": "rhel-openssl-3.0.x,rhel-openssl-1.0.x,native",
+    "PRISMA_BINARIES_MIRROR": "https://binaries.prisma.sh"
+  },
+  "outputDirectory": ".next"
 }
