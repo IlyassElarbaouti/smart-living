@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "PRISMA_QUERY_ENGINE_LIBRARY": "/tmp/prisma-engines/libquery_engine-rhel-openssl-1.0.x.so.node"
+  }
+}
