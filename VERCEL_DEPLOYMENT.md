@@ -8,6 +8,7 @@ Add these environment variables in your Vercel dashboard (Settings > Environment
 DATABASE_URL=postgresql://postgres.qfxugxsilwppxxlhhjzr:Noonedeserve11!@aws-1-eu-north-1.pooler.supabase.com:5432/postgres
 NEXT_PUBLIC_SUPABASE_URL=https://qfxugxsilwppxxlhhjzr.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFmeHVneHNpbHdwcHh4bGhoanpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyMjUxNzcsImV4cCI6MjA3NjgwMTE3N30.sgP1f5xNunbkkMr7Vd2fW0VcER9NwRfCmw06Up_d-oY
+PRISMA_GENERATE_SKIP_AUTOINSTALL=true
 NODE_ENV=production
 ```
 
