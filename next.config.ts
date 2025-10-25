@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
     ],
   },
   serverExternalPackages: ['@prisma/client', 'prisma'],
+  turbopack: {
+    // Empty turbopack config to avoid webpack conflicts
+  },
 };
 
 export default nextConfig;

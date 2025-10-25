@@ -4,6 +4,9 @@
       "maxDuration": 10
     }
   },
-  "buildCommand": "prisma generate && npm run build",
-  "installCommand": "npm install && prisma generate"
+  "buildCommand": "npm install && prisma generate --no-engine && prisma generate && npm run build",
+  "installCommand": "npm ci",
+  "env": {
+    "PRISMA_CLI_BINARY_TARGETS": "rhel-openssl-3.0.x,rhel-openssl-1.0.x,native"
+  }
 }

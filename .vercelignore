@@ -1,0 +1,10 @@
+# Don't ignore Prisma files
+!prisma/
+!node_modules/@prisma/
+!node_modules/.prisma/
+
+# Ignore development files
+.env.local
+.env.development
+*.log
+.DS_Store
